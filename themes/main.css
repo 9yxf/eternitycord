@@ -915,3 +915,29 @@ div[class="iconWrapper__6eb54"] {
 [class^="members_"] [class^="content_"] [class^="container_"]:has([class^="contentImage"]) {
     display: none;
 }
+/* Remove border/box around the time/clock element */
+[class*="time"], [class*="rtcConnection"] {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+/* Force Anicord and Discord to make avatars, icons, and containers square */
+.wrapper_d80610, 
+.childWrapper_a6ce15, 
+.avatar_f96239, 
+.wrapper_eddffa, 
+.icon_a6ce15, 
+.profileAvatar_dba_b,
+img[src*="avatars"],
+img[src*="guild-icons"] {
+    border-radius: 4px !important;
+}
+/* Strip SVG masking layers that force circles onto user profiles and server icons */
+svg > foreignObject > div,
+.mask_d5DK-g foreignObject,
+.avatar_f96239 foreignObject,
+.wrapper_d80610 foreignObject {
+    mask: none !important;
+    clip-path: none !important;
+    border-radius: 4px !important;
+}
