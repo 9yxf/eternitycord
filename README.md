@@ -1,2 +1,4 @@
 # Eternitycord-Theme
-Full rewrite of Anicord with tweaks
+Heavily Inspired by Anicord-Theme
+
+Code taken straight from the Anicord-Theme then removed/replaced with tweaks for my own use
