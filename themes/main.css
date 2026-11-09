@@ -159,65 +159,6 @@ code,
 .scrollableContainer__74017 .textArea__74017 .codeLine_ada32f /* Code Blocks */{
     font-family: var(--code-font), 'NerdFont';
 }
-/* CUSTOM PART */
-body:before {
-    content: "Thanks for using " var(--windows-title)"!";
-    z-index: 1000000000000000000000000;
-    color: hsl(var(--accent-hsl));
-    background: var(--message-color);
-    inset-block-start: 0px;
-    inset-inline-start: 50%;
-    position: absolute;
-    border-radius: var(--app-radius);
-    padding: 7px 15px;
-    -webkit-transform: translate(-50%, -100%);
-    transform: translate(-50%, -100%);
-    -webkit-animation: version 3s ease;
-    animation: version 3s ease;
-    -webkit-animation-delay: 4s;
-    animation-delay: 4s;
-}
-body,
-span:not(.spinner-item) {
-    -webkit-font-smoothing: antialiased;
-    backface-visibility: hidden;
-}
-@-webkit-keyframes version {
-    from {
-        -webkit-transform: translate(-50%, -100%);
-        transform: translate(-50%, -100%);
-    }
-    20% {
-        -webkit-transform: translate(-50%, 20%);
-        transform: translate(-50%, 20%)
-    }
-    80% {
-        -webkit-transform: translate(-50%, 20%);
-        transform: translate(-50%, 20%)
-    }
-    to {
-        -webkit-transform: translate(-50%, -100%);
-        transform: translate(-50%, -100%);
-    }
-}
-@keyframes version {
-    from {
-        -webkit-transform: translate(-50%, -100%);
-        transform: translate(-50%, -100%);
-    }
-    20% {
-        -webkit-transform: translate(-50%, 20%);
-        transform: translate(-50%, 20%)
-    }
-    80% {
-        -webkit-transform: translate(-50%, 20%);
-        transform: translate(-50%, 20%)
-    }
-    to {
-        -webkit-transform: translate(-50%, -100%);
-        transform: translate(-50%, -100%);
-    }
-}
 /*some simple channel/settings/dms/member list hover animations*/
 .wrapper__2ea32 .link__2ea32, /* channels */
 .container__91a9d, /* members */
