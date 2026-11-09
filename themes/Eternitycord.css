@@ -3,6 +3,7 @@
  * @description Full rewrite of Anicord with tweaks
  * @author distanteternity
  * @authorLink https://github.com/9yxf
+ * @authorId 1565697703445532715
  * @version 1.0.0
  * @website https://github.com/9yxf/eternitycord
  * @source https://github.com/9yxf/eternitycord/tree/main/eternitycord.theme.css
@@ -10,3 +11,7 @@
 
 /* FONT IMPORT */
 @import url('https://raw.githubusercontent.com/9yxf/eternitycord/refs/heads/main/themes/fonts.css');
+/* ADDONS IMPORT */
+@import url('https://raw.githubusercontent.com/9yxf/eternitycord/refs/heads/main/themes/addons.css');
+/* Theme Import */
+
